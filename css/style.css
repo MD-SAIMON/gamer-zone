@@ -1,0 +1,48 @@
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* navbar part */
+.navbar {
+    width: 1140px;
+    margin: 0 auto;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 253px;
+    height: 53px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-items a {
+    color: #3C354F;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.following-us {
+    background: #E7E6E9;
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
