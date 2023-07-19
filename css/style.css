@@ -1,6 +1,7 @@
 /* common css */
 :root {
-    --primary-color: #534C64;
+    --primary-color: #FF42A5;
+    --secondary-color: #534C64;
 }
 
 * {
@@ -135,7 +136,7 @@ body {
     display: flex;
     align-items: center;
     text-align: right;
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .about p {
@@ -165,4 +166,83 @@ body {
 
 .about-content {
     margin-left: 100px;
+}
+
+/* online games part start */
+.online-games {
+    color: var(--secondary-color);
+}
+
+.online-games .section-title {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.online-games .section-title h2 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.online-games .section-title p {
+    font-size: 18px;
+}
+
+.online-games .section-title span {
+    background-image: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.online-games-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.online-game-img {
+    position: relative;
+}
+
+.online-game-img img {
+    width: 100%;
+}
+
+.online-game-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.online-game-single:hover .online-game-overlay {
+    visibility: visible;
+    opacity: 1;
+}
+
+.online-game-overlay img {
+    width: 50px;
+}
+
+.online-game-overlay a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.online-game-single p {
+    font-size: 20px;
+    font-weight: 500;
 }
