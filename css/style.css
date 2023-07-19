@@ -28,6 +28,11 @@ body {
     margin: 0 auto;
 }
 
+p {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
 /* navbar part start*/
 .navbar {
     width: 1140px;
@@ -114,7 +119,10 @@ body {
 
 .banner-icon {
     display: flex;
-    margin-right: 10px;
+}
+
+.banner-icon p {
+    margin-left: 10px;
 }
 
 .banner-btn {
@@ -245,4 +253,52 @@ body {
 .online-game-single p {
     font-size: 20px;
     font-weight: 500;
+}
+
+/* play instantly start */
+
+.play-instantly {
+    padding: 100px 0;
+}
+
+.play-instantly-item {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 150px;
+}
+
+.play-instantly-content {
+    padding-left: 9rem;
+}
+
+.play-instantly-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.play-instantly-content h2 span {
+    background-image: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+
+.play-instantly-img {
+    position: relative;
+}
+
+.play-instantly-img .img-1 {
+    width: 100%;
+}
+
+.play-instantly-img .img-2 {
+    position: absolute;
+    bottom: -65px;
+    left: -23%;
+}
+
+.play-instantly-img .img-2 img {
+    width: 220px;
 }
