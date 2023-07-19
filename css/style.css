@@ -356,3 +356,31 @@ ul {
 .career-option .list-right {
     text-align: right;
 }
+
+/* game types start */
+.game-types {
+    padding: 50px 0;
+    color: var(--secondary-color);
+}
+
+.game-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game-type .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+
+.game-type .item:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color)
+}
