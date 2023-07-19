@@ -332,6 +332,10 @@ ul {
     width: 50%;
 }
 
+/* .career-content-left {
+    padding: 50px 0;
+} */
+
 .career-content-left .btn-primary {
     background: #fff;
     color: var(--primary-color);
@@ -383,4 +387,38 @@ ul {
 .game-type .item:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color)
+}
+
+/* footer start */
+.footer {
+    background-color: #0B0223;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+}
+
+.footer-menu-1 a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-menu-3 a,
+.footer p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
 }
