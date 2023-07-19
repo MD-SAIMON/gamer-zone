@@ -598,6 +598,15 @@ ul {
     }
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .navbar .logo {
+        width: 200px;
+    }
+}
 
 @media (max-width: 991.98px) {}
