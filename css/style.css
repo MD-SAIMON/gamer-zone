@@ -598,7 +598,7 @@ ul {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
     .navbar {
         justify-content: center;
         gap: 30px;
@@ -607,6 +607,42 @@ ul {
     .navbar .logo {
         width: 200px;
     }
-}
 
-@media (max-width: 991.98px) {}
+    .banner-content {
+        align-items: center;
+    }
+
+    .about-us {
+        background: none;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img,
+    .about-content {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .about-content {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .online-games-item {
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+
+    .online-game-img {
+        width: 100%;
+    }
+}
