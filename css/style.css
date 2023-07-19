@@ -33,6 +33,10 @@ p {
     color: var(--secondary-color);
 }
 
+ul {
+    list-style: none;
+}
+
 /* navbar part start*/
 .navbar {
     width: 1140px;
@@ -301,4 +305,54 @@ p {
 
 .play-instantly-img .img-2 img {
     width: 220px;
+}
+
+/* careers start */
+.careers {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.career h2 {
+    font-size: 48px;
+}
+
+.career p {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.career {
+    display: flex;
+    align-items: center;
+}
+
+.career-content-left,
+.career-content-right {
+    width: 50%;
+}
+
+.career-content-left .btn-primary {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.career-content-right {
+    position: relative;
+    right: -100px;
+}
+
+.career-content-right img {
+    width: 100%;
+}
+
+.career-option {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.career-option .list-right {
+    text-align: right;
 }
