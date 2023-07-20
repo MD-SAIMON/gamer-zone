@@ -23,8 +23,8 @@ body {
     width: max-content;
 }
 
-.section-container {
-    width: 1140px;
+.container {
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -39,8 +39,6 @@ ul {
 
 /* navbar part start*/
 .navbar {
-    width: 1140px;
-    margin: 0 auto;
     min-height: 130px;
     display: flex;
     align-items: center;
@@ -85,8 +83,6 @@ ul {
 }
 
 .banner-container {
-    width: 1140px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
 }
@@ -424,225 +420,4 @@ ul {
 .footer p {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.6);
-}
-
-/* Responsive CSS */
-
-@media (max-width: 575.98px) {
-    .navbar {
-        padding: 50px 0px;
-    }
-
-    .navbar,
-    .nav-items {
-        width: 540px;
-        flex-direction: column;
-        gap: 20px;
-    }
-}
-
-@media (max-width: 520px) {
-    .navbar {
-        padding: 50px 0px;
-    }
-
-    .navbar,
-    .nav-items,
-    .banner-container {
-        width: 400px;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .banner-container {
-        flex-direction: column-reverse;
-    }
-
-    .banner-content {
-        align-items: center;
-        padding: 50px 0px;
-
-    }
-
-    .banner-content h2 {
-        font-size: 48px;
-        font-weight: 600;
-    }
-
-    .banner-content h1 {
-        font-size: 48px;
-        font-weight: 800;
-    }
-
-    .banner-content,
-    .banner-img {
-        width: 100%;
-    }
-
-    .banner-img img {
-        width: 80%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .banner-icon p {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .about {
-        flex-direction: column;
-    }
-
-    .section-container {
-        width: 400px;
-    }
-
-    .about-img,
-    .about-content {
-        width: 100%;
-    }
-
-    .about-img img {
-        width: 100%;
-    }
-
-    .about-content {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .about-content p {
-        font-size: 14px;
-    }
-
-    .online-games-item {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .online-game-img {
-        margin-top: 2rem;
-    }
-
-    .play-instantly {
-        padding: 50px 0;
-    }
-
-    .play-instantly-item {
-        flex-direction: column;
-        gap: 50px;
-    }
-
-    .play-instantly-content {
-        padding-left: 0;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .play-instantly-content h2 {
-        font-size: 28px;
-    }
-
-    .play-instantly-content p {
-        font-size: 14px;
-        margin-top: 30px;
-    }
-
-    .play-instantly-img .img-1 {
-        width: 80%;
-    }
-
-    .play-instantly-img .img-2 {
-        bottom: -78px;
-        left: 0%;
-    }
-
-    .play-instantly-img .img-2 img {
-        width: 180px;
-    }
-
-    .career {
-        flex-direction: column;
-        margin-top: 100px;
-        padding: 50px 0px;
-    }
-
-    .career-content-left,
-    .career-content-right {
-        width: 100%;
-    }
-
-    .career-content-left h2 {
-        font-size: 28px;
-    }
-
-    .career-content-left p,
-    .career-option li {
-        font-size: 14px;
-    }
-
-    .game-type .item img {
-        width: 40px;
-    }
-
-    .game-type .item h4 {
-        font-size: 12px;
-    }
-
-    .footer-menu {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-    .navbar {
-        justify-content: center;
-        gap: 30px;
-    }
-
-    .navbar .logo {
-        width: 200px;
-    }
-
-    .banner-content {
-        align-items: center;
-    }
-
-    .about-us {
-        background: none;
-    }
-
-    .about {
-        flex-direction: column;
-    }
-
-    .about-img,
-    .about-content {
-        width: 100%;
-    }
-
-    .about-img img {
-        width: 100%;
-    }
-
-    .about-content {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .online-games-item {
-        /* display: flex;
-        flex-wrap: wrap; */
-    }
-
-    .online-game-img {
-        width: 100%;
-    }
 }
