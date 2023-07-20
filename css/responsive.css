@@ -129,10 +129,12 @@
 
     .game-type {
         gap: 0px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .game-type .item img {
-        width: 35px;
+        width: 30px;
     }
 
     .game-type .item h4 {
@@ -237,6 +239,16 @@
 
     .career-content-left {
         width: 80%;
+        padding-left: 0;
+    }
+
+    .career h2 {
+        font-size: 40px;
+    }
+
+    .career p,
+    .career ul li {
+        font-size: 14px;
     }
 
     .career-content-left .btn-primary {
@@ -250,6 +262,14 @@
 
     .career-option {
         align-items: space-between;
+    }
+
+    .game-type .item img {
+        width: 25px;
+    }
+
+    .game-type .item h4 {
+        font-size: 10px;
     }
 
     .footer-menu {

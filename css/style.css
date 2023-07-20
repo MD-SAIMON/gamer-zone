@@ -381,6 +381,7 @@ ul {
     border: 1px solid transparent;
     border-radius: 50px;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
 .game-type .item:hover {
